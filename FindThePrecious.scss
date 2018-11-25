@@ -1,0 +1,56 @@
+$smallRingColor: #FF9900;
+$largeRingColor: #EBF300;
+$multiRingColor: #000000;
+$largeSizeRing: 200px;
+$smallSizeRing: 100px;
+
+@mixin ring ($color, $size){
+  box-shadow: 3px 3px 2px $color inset;
+  border: $size/10 solid $color;
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+}
+.navbar {
+  background: orange;
+  height: auto;
+  width: auto;
+}
+
+.text1 {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 30pt;
+  margin-left:5%;
+  width: 400px;
+}
+
+.text2, .text3 {
+  font-size: 40pt;
+  margin-top: 60px;
+  margin-left: 35%;
+  width: 400px;
+  font-family: "Gloria Hallelujah", cursive;
+}
+.ring1, .ring2 {
+  @include ring($smallRingColor, $smallSizeRing)
+}
+.ring3 {
+  @include ring($largeRingColor, $largeSizeRing)
+}
+
+.section1 {
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 48px;
+}
+.navbar-nav, navbar-brand, a {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 10pt;
+}
+
+@for $i from 1 through 6 {
+  .ring-#{$i} {
+    margin-right : -(($i*$i)+15px);
+    @include ring($multiRingColor, $smallSizeRing*($i/4));
+  }
+}

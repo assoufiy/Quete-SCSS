@@ -1,0 +1,101 @@
+.navbar {
+    background: orange;
+    height: auto;
+    width: auto;
+}
+
+.text1 {
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 30pt;
+    margin-left: 5%;
+    width: 400px;
+}
+
+.text2, .text3 {
+    font-size: 40pt;
+    margin-top: 60px;
+    margin-left: 35%;
+    width: 400px;
+    font-family: "Gloria Hallelujah", cursive;
+}
+
+.ring1, .ring2 {
+    box-shadow: 3px 3px 2px #FF9900 inset;
+    border: 10px solid #FF9900;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.ring3 {
+    box-shadow: 3px 3px 2px #EBF300 inset;
+    border: 20px solid #EBF300;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.section1 {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 48px;
+}
+
+.navbar-nav, navbar-brand, a {
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 10pt;
+}
+
+.ring-1 {
+    margin-right: -16px;
+    box-shadow: 3px 3px 2px #000000 inset;
+    border: 2.5px solid #000000;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.ring-2 {
+    margin-right: -19px;
+    box-shadow: 3px 3px 2px #000000 inset;
+    border: 5px solid #000000;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.ring-3 {
+    margin-right: -24px;
+    box-shadow: 3px 3px 2px #000000 inset;
+    border: 7.5px solid #000000;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.ring-4 {
+    margin-right: -31px;
+    box-shadow: 3px 3px 2px #000000 inset;
+    border: 10px solid #000000;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.ring-5 {
+    margin-right: -40px;
+    box-shadow: 3px 3px 2px #000000 inset;
+    border: 12.5px solid #000000;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+}
+
+.ring-6 {
+    margin-right: -51px;
+    box-shadow: 3px 3px 2px #000000 inset;
+    border: 15px solid #000000;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
